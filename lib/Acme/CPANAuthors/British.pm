@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.02";
+    $VERSION = "0.03";
 }
 
 use Acme::CPANAuthors::Register (
@@ -44,11 +44,13 @@ use Acme::CPANAuthors::Register (
     CDOT        => 'Crawford Currie',
     CHISEL      => 'Chisel Wright',
     CHSTROSS    => 'Charlie Stross',
+    CJK         => "Christopher Key",
     CLIFFORDJ   => 'Jason Clifford',
     COLINFINE   => 'Colin Fine',
     COSMICNET   => 'Lyle Hopkins',
     COWFISH     => 'Billy Abbott',
     CPWILLMOT   => 'Christopher Willmot',
+    CYCLES      => "Oliver Charles",
     DAVE        => 'Dave Holland',
     DAVECROSS   => 'Dave Cross',
     DAVEHODG    => 'Dave Hodgkinson',
@@ -213,6 +215,7 @@ use Acme::CPANAuthors::Register (
     SJQUINNEY   => 'Stephen Quinney',
     SJZASADA    => 'Stefan Zasada',
     SKINGTON    => 'Sam Kington',
+    SKX         => "Steve Kemp",
     SMPILL      => 'Steve Pillinger',
     SMULLIS     => 'Simon Mullis',
     SMYLERS     => 'Smylers',
@@ -240,6 +243,7 @@ use Acme::CPANAuthors::Register (
     WAYNEM      => 'Wayne Myers',
     WHITEB      => 'Barry White',
     WKEENAN     => 'Wayne Keenan',
+    XEONTIME    => "Daniel David Parry",
     YODA        => 'Jody Belka',
     ZOOT        => 'Owen Cliffe',
     ZOZO        => 'Theo Zourzouvillys',
@@ -364,7 +368,7 @@ I always wanted to release an Acme module :)
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 Barbie for Miss Barbell Productions.
+Copyright 2009-2010 Barbie for Miss Barbell Productions.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

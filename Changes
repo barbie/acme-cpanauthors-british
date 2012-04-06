@@ -1,5 +1,9 @@
 Revision history for Acme-CPANAuthors-British
 
+0.03    31/10/2010
+	- revised pingtest.
+	- added CJK, CYCLES, SKX and XEONTIME as British authors.
+
 0.02    09/12/2009
 	- added DOTTK as a British Company (RT#51438, thanks DAXIM).
 

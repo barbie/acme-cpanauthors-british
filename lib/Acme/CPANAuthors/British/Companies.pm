@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.02";
+    $VERSION = "0.03";
 }
 
 use Acme::CPANAuthors::Register (
@@ -109,7 +109,7 @@ this release.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 Barbie for Miss Barbell Productions.
+Copyright 2009-2010 Barbie for Miss Barbell Productions.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

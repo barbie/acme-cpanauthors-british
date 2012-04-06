@@ -38,7 +38,8 @@ SKIP: {
         skip "cpants.perl.org is not available", 1
             if(pingtest('cpants.perl.org'));
 
-        my $kwalitee = $authors->kwalitee('BBCIFL');
+        my $kwalitee;
+        eval { $kwalitee = $authors->kwalitee('BBCIFL') };
         isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BBCIFL')" );
     }
 }
