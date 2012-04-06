@@ -1,0 +1,47 @@
+NAME
+
+    Acme::CPANAuthors::British - We are British CPAN authors
+
+DESCRIPTION
+
+    This class provides a hash of British CPAN authors' PAUSE ID and name to
+    the Acme::CPANAuthors module. As an added bonus this distribution also
+    includes a list of British Companies too!
+
+INSTALLATION
+
+    To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+    After installing, you can find documentation for this module with the
+    perldoc command.
+
+        perldoc Acme::CPANAuthors::British
+
+    You can also look for information at:
+
+        RT, CPAN's request tracker
+            http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-British
+
+        AnnoCPAN, Annotated CPAN documentation
+            http://annocpan.org/dist/Acme-CPANAuthors-British
+
+        CPAN Ratings
+            http://cpanratings.perl.org/d/Acme-CPANAuthors-British
+
+        Search CPAN
+            http://search.cpan.org/dist/Acme-CPANAuthors-British
+
+
+COPYRIGHT AND LICENCE
+
+    Copyright (C) 2009 Barbie for Miss Barbell Productions.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
