@@ -35,6 +35,7 @@ no_index:
 resources:
   license:    http://dev.perl.org/licenses/
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-British
+  repository: http://github.com/barbie/acme-cpanauthors-british
 
 meta-spec:
    version:   1.4
