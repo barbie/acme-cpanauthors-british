@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.01";
+    $VERSION = "0.02";
 }
 
 use Acme::CPANAuthors::Register (
@@ -16,6 +16,7 @@ use Acme::CPANAuthors::Register (
 	FOTANGO	    => 'Fotango Ltd',
 	GMGRD	    => 'Guardian Media Group Regional Digital',
 	PROFERO	    => 'Profero Ltd.',
+	DOTTK	    => 'Dot TK Limited',
 );
 
 q<

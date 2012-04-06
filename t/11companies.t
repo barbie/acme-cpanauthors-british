@@ -11,7 +11,7 @@ my $authors  = eval { Acme::CPANAuthors->new("British::Companies") };
 is( $@, "", "creating a new Acme::CPANAuthors object with British Companies" );
 isa_ok( $authors, "Acme::CPANAuthors" );
 
-my $number = 8;
+my $number = 9;
 is( $authors->count, $number, " .. \$authors->count matches current count" );
 
 my @ids = $authors->id;

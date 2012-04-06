@@ -1,5 +1,8 @@
 Revision history for Acme-CPANAuthors-British
 
+0.02    09/12/2009
+	- added DOTTK as a British Company (RT#51438, thanks DAXIM).
+
 0.01    10/11/2009
         First version, released because no-one else dared!
 
