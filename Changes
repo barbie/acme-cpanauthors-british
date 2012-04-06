@@ -1,5 +1,8 @@
 Revision history for Acme-CPANAuthors-British
 
+0.04    04/11/2010
+	- fixed skip count and updated pingtest for 11companies.t.
+
 0.03    31/10/2010
 	- revised pingtest.
 	- added CJK, CYCLES, SKX and XEONTIME as British authors.

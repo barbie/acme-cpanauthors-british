@@ -19,7 +19,7 @@ cmp_ok( ~~@ids, ">", 0, " .. \$authors->id gives a non-empty list" );
 is( ~~@ids, $number, " .. \$authors->id equals \$authors->count" );
 
 SKIP: {
-    skip "CPAN configuration not available", 6
+    skip "CPAN configuration not available", 5
         unless eval "Acme::CPANAuthors::Utils::_cpan_authors_file() ; 1";
 
     my @distros  = $authors->distributions('FOTANGO');
@@ -45,8 +45,17 @@ SKIP: {
 }
 
 sub pingtest {
-    my $domain = shift || return 1;
-    system("ping -q -c 1 $domain >/dev/null 2>&1");
-    my $retcode = $? >> 8;
+    my $domain = shift or return 0;
+    my $cmd =   $^O =~ /solaris/i                           ? "ping -s $domain 56 1" :
+                $^O =~ /dos|os2|mswin32|netware|cygwin/i    ? "ping -n 1 $domain "
+                                                            : "ping -c 1 $domain >/dev/null 2>&1";
+
+    eval { system($cmd) }; 
+    if($@) {                # can't find ping, or wrong arguments?
+        diag();
+        return 1;
+    }
+
+    my $retcode = $? >> 8;  # ping returns 1 if unable to connect
     return $retcode;
 }

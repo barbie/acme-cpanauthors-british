@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-CPANAuthors-British
-version:            0.03
+version:            0.04
 abstract:           We are British CPAN authors
 author:
     - Barbie <barbie@cpan.org>
