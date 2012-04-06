@@ -1,5 +1,8 @@
 Revision history for Acme-CPANAuthors-British
 
+0.05    06/04/2012
+	- fixed CPANTS tests.
+
 0.04    04/11/2010
 	- fixed skip count and updated pingtest for 11companies.t.
 

@@ -1,23 +1,42 @@
 --- #YAML:1.0
-name:               Acme-CPANAuthors-British
-version:            0.04
-abstract:           We are British CPAN authors
+name:                     Acme-CPANAuthors-British
+version:                  0.05
+abstract:                 We are British CPAN authors.
 author:
-    - Barbie <barbie@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    ExtUtils::MakeMaker:  0
+  - Barbie <barbie@cpan.org>
+
+license:                  perl
+distribution_type:        module
+installdirs:              site
+
 requires:
-    Acme::CPANAuthors:  0.04
-    Test::More:         0.70
+  Acme::CPANAuthors:      0.04
+  Test::More:             0.70
+recommends:
+  Test::More:             0.70
+  Test::Pod:              1.00
+  Test::Pod::Coverage:    0.08
+  Test::CPAN::Meta:       0.13
+build_requires:
+  Test::More:             0.70
+
+provides:
+  Acme::CPANAuthors::British:
+    file:     lib/Acme/CPANAuthors/British.pm
+    version:  0.05
+  Acme::CPANAuthors::British::Companies:
+    file:     lib/Acme/CPANAuthors/British/Companies.pm
+    version:  0.05
 no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  directory:
+    - t
+    - examples
+
+resources:
+  license:    http://dev.perl.org/licenses/
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-British
+
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+   version:   1.4
+   url:       http://module-build.sourceforge.net/META-spec-v1.4.html
+generated_by: Hand 1.0

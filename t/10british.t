@@ -34,16 +34,16 @@ SKIP: {
     $url = $authors->avatar_url('BINGOS');
     cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('BINGOS') gives a non-empty string" );
 
-    my $name = $authors->name('DCANTRELL');
-    cmp_ok( length($name), ">", 0, " .. \$authors->name('DCANTRELL') gives a non-empty string" );
+    my $name = $authors->name('DGL');
+    cmp_ok( length($name), ">", 0, " .. \$authors->name('DGL') gives a non-empty string" );
 
     SKIP: {
         skip "cpants.perl.org is not available", 1
             if(pingtest('cpants.perl.org'));
 
         my $kwalitee;
-        eval { $kwalitee = $authors->kwalitee('DAVORG') };
-        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('DAVORG')" );
+        eval { $kwalitee = $authors->kwalitee('JONALLEN') };
+        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('JONALLEN')" );
     }
 }
 

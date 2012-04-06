@@ -4,19 +4,19 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.04";
+    $VERSION = "0.05";
 }
 
 use Acme::CPANAuthors::Register (
-	BBCIFL	    => 'BBC, Interactive Factual & Learning',
-	BBCPKENT	=> 'P Kent (BBC)',
-	BBCSIMONF	=> 'Simon Flack (BBC)',
-	BLACKSTAR	=> 'BlackStar',
-	CASTLE	    => 'Peter Goode/Castle Links Ltd',
-	FOTANGO	    => 'Fotango Ltd',
-	GMGRD	    => 'Guardian Media Group Regional Digital',
-	PROFERO	    => 'Profero Ltd.',
-	DOTTK	    => 'Dot TK Limited',
+    BBCIFL      => 'BBC, Interactive Factual & Learning',
+    BBCPKENT    => 'P Kent (BBC)',
+    BBCSIMONF   => 'Simon Flack (BBC)',
+    BLACKSTAR   => 'BlackStar',
+    CASTLE      => 'Peter Goode/Castle Links Ltd',
+    FOTANGO     => 'Fotango Ltd',
+    GMGRD       => 'Guardian Media Group Regional Digital',
+    PROFERO     => 'Profero Ltd.',
+    DOTTK       => 'Dot TK Limited',
 );
 
 q<
@@ -109,7 +109,7 @@ this release.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009-2010 Barbie for Miss Barbell Productions.
+Copyright 2009-2012 Barbie for Miss Barbell Productions.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
