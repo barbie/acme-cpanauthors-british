@@ -325,11 +325,6 @@ L<Acme::CPANAuthors::European> - European CPAN authors
 
 L<Acme::CPANAuthors::EU> - EU CPAN authors
 
-=head1 AUTHOR
-
-Barbie C<< <barbie at cpan.org> >>
-
-
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
@@ -366,11 +361,16 @@ this release.
 
 I always wanted to release an Acme module :)
 
+=head1 AUTHOR
+
+  Barbie, <barbie@cpan.org>
+  for Miss Barbell Productions <http://www.missbarbell.co.uk>.
+
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009-2012 Barbie for Miss Barbell Productions.
+  Copyright 2009-2012 Barbie for Miss Barbell Productions.
 
-This program is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+  This module is free software; you can redistribute it and/or
+  modify it under the Artistic License 2.0.
 
 =cut
