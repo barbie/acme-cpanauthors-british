@@ -2,6 +2,8 @@ Revision history for Acme-CPANAuthors-British
 
 0.06    08/04/2012
 	- added missing test pre-requisite, IO::File.
+	- added 1 British CPAN company.
+	- added 34 British CPAN authors.
 
 0.05    06/04/2012
 	- fixed CPANTS tests.

@@ -8,6 +8,7 @@ use warnings;
 }
 
 use Acme::CPANAuthors::Register (
+    BBC         => 'BBC (British Broadcasting Corporation)',
     BBCIFL      => 'BBC, Interactive Factual & Learning',
     BBCPKENT    => 'P Kent (BBC)',
     BBCSIMONF   => 'Simon Flack (BBC)',
