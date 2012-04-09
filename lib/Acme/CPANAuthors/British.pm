@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.06";
+    $VERSION = "0.07";
 }
 
 use Acme::CPANAuthors::Register (
@@ -110,6 +110,7 @@ use Acme::CPANAuthors::Register (
     IAINT       => 'Iain Tatch',
     ICLARK      => 'Ian Clark',
     IDORU       => 'Russell Matbouli',
+    IOANR       => 'Ioan Rogers',
     ISTEEL      => 'Ian Steel',
     ITDEV       => 'Bruce Mitchell',
     JABLKO      => 'Jack Bates',
@@ -184,6 +185,7 @@ use Acme::CPANAuthors::Register (
     MWARD       => 'Martin Ward',
     MWILSON     => 'Matt Wilson',
     NATHANL     => 'Nathan Lewis',
+    NEILB       => 'Neil Bowers',
     NHORNE      => 'Nigel Horne',
     NIGE        => 'Nigel Hamilton',
     NIGELM      => 'Nigel Metheringham',
