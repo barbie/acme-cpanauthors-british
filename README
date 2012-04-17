@@ -26,8 +26,11 @@ SUPPORT AND DOCUMENTATION
 
     You can also look for information at:
 
-        RT, CPAN's request tracker
-            http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-British
+        Search CPAN
+            http://search.cpan.org/dist/Acme-CPANAuthors-British
+
+	MetaCPAN
+	    https://metacpan.org/module/Acme::CPANAuthors::British
 
         AnnoCPAN, Annotated CPAN documentation
             http://annocpan.org/dist/Acme-CPANAuthors-British
@@ -35,13 +38,27 @@ SUPPORT AND DOCUMENTATION
         CPAN Ratings
             http://cpanratings.perl.org/d/Acme-CPANAuthors-British
 
-        Search CPAN
-            http://search.cpan.org/dist/Acme-CPANAuthors-British
+    Bugs, patches and feature requests can be reported at:
 
+        RT, CPAN's request tracker
+            http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-British
+
+	GitHub
+	    http://github.com/barbie/acme-cpanauthors-british
+
+
+    There are no known bugs at the time of this release. However, if you spot a
+    bug or are experiencing difficulties that are not explained within the POD
+    documentation, please send an email to barbie@cpan.org or submit a bug to 
+    the RT queue. However, it would help greatly if you are able to pinpoint 
+    problems or even supply a patch. 
+
+    Fixes are dependant upon their severity and my availability. Should a fix 
+    not be forthcoming, please feel free to (politely) remind me.
 
 COPYRIGHT AND LICENCE
 
-    Copyright (C) 2009 Barbie for Miss Barbell Productions.
+    Copyright (C) 2009-2012 Barbie for Miss Barbell Productions.
 
-    This program is free software; you can redistribute it and/or modify it
-    under the same terms as Perl itself.
+    This distribution is free software; you can redistribute it and/or
+    modify it under the Artistic License v2.

@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.07";
+    $VERSION = "0.08";
 }
 
 use Acme::CPANAuthors::Register (
@@ -371,9 +371,13 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker
+=item * Search CPAN
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-British>
+L<http://search.cpan.org/dist/Acme-CPANAuthors-British>
+
+=item * MetaCPAN
+
+L<https://metacpan.org/module/Acme::CPANAuthors::British>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
@@ -383,11 +387,30 @@ L<http://annocpan.org/dist/Acme-CPANAuthors-British>
 
 L<http://cpanratings.perl.org/d/Acme-CPANAuthors-British>
 
-=item * Search CPAN
+=back
 
-L<http://search.cpan.org/dist/Acme-CPANAuthors-British>
+Bugs, patches and feature requests can be reported at:
+
+=over 4
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-British>
+
+=item * GitHub
+
+L<http://github.com/barbie/acme-cpanauthors-british>
 
 =back
+
+There are no known bugs at the time of this release. However, if you spot a
+bug or are experiencing difficulties that are not explained within the POD
+documentation, please send an email to barbie@cpan.org or submit a bug to 
+the RT queue. However, it would help greatly if you are able to pinpoint 
+problems or even supply a patch. 
+
+Fixes are dependant upon their severity and my availability. Should a fix 
+not be forthcoming, please feel free to (politely) remind me.
 
 =head1 ACKNOWLEDGEMENTS
 

@@ -1,6 +1,6 @@
 {
     "name": "Acme-CPANAuthors-British",
-    "version": "0.07",
+    "version": "0.08",
     "abstract": "We are British CPAN authors.",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -23,6 +23,7 @@
     "prereqs" : {
         "runtime" : {
             "requires" : {
+                "perl": "5.006",
                 "Acme::CPANAuthors": "0.04"
             }
         },
@@ -32,8 +33,8 @@
                 "IO::File": "0"
             },
             "recommends": {
-                "Test::CPAN::Meta": "0.13",
-                "Test::CPAN::Meta::JSON": "0.12",
+                "Test::CPAN::Meta": "0",
+                "Test::CPAN::Meta::JSON": "0",
                 "Test::Pod": "1.00",
                 "Test::Pod::Coverage": "0.08"
             }
@@ -43,11 +44,11 @@
     "provides": {
         "Acme::CPANAuthors::British": {
             "file": "lib/Acme/CPANAuthors/British.pm",
-            "version": "0.07"
+            "version": "0.08"
         },
         "Acme::CPANAuthors::British::Companies": {
             "file": "lib/Acme/CPANAuthors/British/Companies.pm",
-            "version": "0.07"
+            "version": "0.08"
         }
     },
     "no_index": {
