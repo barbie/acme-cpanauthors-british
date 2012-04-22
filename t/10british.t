@@ -19,8 +19,13 @@ cmp_ok( ~~@ids, ">", 0, " .. \$authors->id gives a non-empty list" );
 is( ~~@ids, $number, " .. \$authors->id equals \$authors->count" );
 
 SKIP: {
-    skip "CPAN configuration not available", 6
-        unless eval "Acme::CPANAuthors::Utils::_cpan_authors_file() ; 1";
+    my $file;
+    eval { $file = Acme::CPANAuthors::Utils::_cpan_authors_file() };
+    skip "CPAN configuration not available", 6 if($@ || !$file);
+
+    $file = undef;
+    eval { $file = Acme::CPANAuthors::Utils::_cpan_packages_file() };
+    skip "CPAN configuration not available", 6 if($@ || !$file);
 
     my @distros  = $authors->distributions('BARBIE');
     cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions('BARBIE') gives a non-empty list" );

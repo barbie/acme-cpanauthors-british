@@ -1,5 +1,9 @@
 Revision history for Acme-CPANAuthors-British
 
+0.09    22/04/2012
+	- further spelling fix (Florian Schlichting).
+	- more reliable skip tests.
+
 0.08    17/04/2012
 	- spelling fix. (thanks to Florian Schlichting & Gregor Herrmann).
 	- added minimum perl version (5.006).

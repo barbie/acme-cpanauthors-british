@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.08";
+    $VERSION = "0.09";
 }
 
 use Acme::CPANAuthors::Register (
@@ -118,7 +118,7 @@ documentation, please send an email to barbie@cpan.org or submit a bug to
 the RT queue. However, it would help greatly if you are able to pinpoint 
 problems or even supply a patch. 
 
-Fixes are dependant upon their severity and my availability. Should a fix 
+Fixes are dependent upon their severity and my availability. Should a fix 
 not be forthcoming, please feel free to (politely) remind me.
 
 =head1 ACKNOWLEDGEMENTS
