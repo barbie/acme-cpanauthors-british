@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.10";
+    $VERSION = "0.11";
 }
 
 use Acme::CPANAuthors::Register (
@@ -23,7 +23,6 @@ use Acme::CPANAuthors::Register (
 q<
     recommended listening when using this module: Paramore - Misery Business
 >
-
 
 __END__
 

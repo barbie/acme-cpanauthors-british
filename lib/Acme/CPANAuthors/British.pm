@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.10";
+    $VERSION = "0.11";
 }
 
 use Acme::CPANAuthors::Register (
@@ -115,6 +115,7 @@ use Acme::CPANAuthors::Register (
     ITDEV       => 'Bruce Mitchell',
     JABLKO      => 'Jack Bates',
     JAGS        => 'Jagdeep S. Sandhu',
+    JAITKEN     => 'James Aitken',
     JAMESPO     => 'James Powell',
     JAMESR      => 'James Ronan',
     JARLE       => 'Jarle Brinchmann',
@@ -297,7 +298,6 @@ q<
     United, united, united we stand
     United we stand one and all
 >
-
 
 __END__
 
