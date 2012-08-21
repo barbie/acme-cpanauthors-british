@@ -1,7 +1,10 @@
 Revision history for Acme-CPANAuthors-British
 
+0.12	21/08/2012
+	add NEWELLC (Colin Newell)
+
 0.11	03/07/2012
-	- added JAITKEN
+	- added JAITKEN (James Aitken)
 
 0.10	29/04/2012
 	- more reliable skip tests added to 11companies.t.
