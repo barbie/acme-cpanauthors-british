@@ -40,8 +40,8 @@ SKIP: {
     cmp_ok( length($name), ">", 0, " .. \$authors->name('GMGRD') gives a non-empty string" );
 
     SKIP: {
-        skip "cpants.perl.org is not available", 1
-            if(pingtest('cpants.perl.org'));
+        skip "api.cpanauthors.org is not available", 1
+            if(pingtest('api.cpanauthors.org'));
 
         my $kwalitee;
         eval { $kwalitee = $authors->kwalitee('BBCIFL') };

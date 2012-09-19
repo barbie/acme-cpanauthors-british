@@ -11,7 +11,7 @@ my $authors  = eval { Acme::CPANAuthors->new("British") };
 is( $@, "", "creating a new Acme::CPANAuthors object with British authors" );
 isa_ok( $authors, "Acme::CPANAuthors" );
 
-my $number = 280;
+my $number = 281;
 is( $authors->count, $number, " .. \$authors->count matches current count" );
 
 my @ids = $authors->id;
@@ -43,11 +43,13 @@ SKIP: {
     cmp_ok( length($name), ">", 0, " .. \$authors->name('DGL') gives a non-empty string" );
 
     SKIP: {
-        skip "cpants.perl.org is not available", 1
-            if(pingtest('cpants.perl.org'));
+        skip "api.cpanauthors.org is not available", 1
+            if(pingtest('api.cpanauthors.org'));
 
         my $kwalitee;
         eval { $kwalitee = $authors->kwalitee('JONALLEN') };
+        skip "api.cpanauthors.org is not available", 1 if($@);
+
         isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('JONALLEN')" );
     }
 }

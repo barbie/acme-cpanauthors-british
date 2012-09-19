@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.12";
+    $VERSION = "0.13";
 }
 
 use Acme::CPANAuthors::Register (
@@ -55,6 +55,7 @@ use Acme::CPANAuthors::Register (
     BMORROW     => 'Ben Morrow',
     BOBNET      => 'Robert Cornell',
     BOBTFISH    => 'Tomas Doran',
+    BOB         => 'Bob Walker',
     BOBW        => 'Bob Wilkinson',
     BURKEY      => 'Daniel Burke',
     CAILLTE     => 'Simon Parsons',
