@@ -127,7 +127,6 @@ use Acme::CPANAuthors::Register (
     JIMRIE      => 'John Imrie',
     JJGREEN     => 'J.J. Green',
     JMASTROS    => 'James Mastros',
-    JMCNAMARA   => 'John McNamara',
     JNBROOKES   => 'Jon Brookes',
     JONALLEN    => 'Jon Allen',
     JONATHAN    => 'Jonathan Worthington',
