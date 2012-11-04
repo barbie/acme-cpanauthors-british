@@ -44,8 +44,8 @@ SKIP: {
             if(pingtest('api.cpanauthors.org'));
 
         my $kwalitee;
-        eval { $kwalitee = $authors->kwalitee('BBCIFL') };
-        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BBCIFL')" );
+        eval { $kwalitee = $authors->kwalitee('BBC') };
+        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BBC')" );
     }
 }
 
