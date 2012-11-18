@@ -33,11 +33,19 @@ SKIP: {
     @distros = $authors->distributions('XXXXXX');
     cmp_ok( ~~@distros, "==", 0, " .. \$authors->distributions('XXXXXX') gives an empty list" );
 
-    my $url = $authors->avatar_url('GMGRD');
-    cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('GMGRD') gives a non-empty string" );
-
     my $name = $authors->name('GMGRD');
     cmp_ok( length($name), ">", 0, " .. \$authors->name('GMGRD') gives a non-empty string" );
+
+    SKIP: {
+        skip "en.gravatar.com is not available", 1
+            if(pingtest('en.gravatar.com'));
+
+        my $url;
+        eval { $url = $authors->avatar_url('GMGRD') };
+        skip "en.gravatar.com is not available", 1 if($@);
+        $url ||= '';
+        cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('GMGRD') gives a non-empty string" );
+    }
 
     SKIP: {
         skip "api.cpanauthors.org is not available", 1
@@ -45,6 +53,7 @@ SKIP: {
 
         my $kwalitee;
         eval { $kwalitee = $authors->kwalitee('BBC') };
+        skip "api.cpanauthors.org is not available", 1 if($@);
         isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BBC')" );
     }
 }
