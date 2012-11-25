@@ -5,7 +5,7 @@ use Test::More;
 
 plan skip_all => "can't load Acme::CPANAuthors"
     unless eval "use Acme::CPANAuthors; 1";
-plan tests => 10;
+plan tests => 9;
 
 my $authors  = eval { Acme::CPANAuthors->new("British::Companies") };
 is( $@, "", "creating a new Acme::CPANAuthors object with British Companies" );
@@ -36,16 +36,16 @@ SKIP: {
     my $name = $authors->name('GMGRD');
     cmp_ok( length($name), ">", 0, " .. \$authors->name('GMGRD') gives a non-empty string" );
 
-    SKIP: {
-        skip "en.gravatar.com is not available", 1
-            if(pingtest('en.gravatar.com'));
-
-        my $url;
-        eval { $url = $authors->avatar_url('GMGRD') };
-        skip "en.gravatar.com is not available", 1 if($@);
-        $url ||= '';
-        cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('GMGRD') gives a non-empty string" );
-    }
+#    SKIP: {
+#        skip "en.gravatar.com is not available", 1
+#            if(pingtest('en.gravatar.com'));
+#
+#        my $url;
+#        eval { $url = $authors->avatar_url('GMGRD') };
+#        skip "en.gravatar.com is not available", 1 if($@);
+#        $url ||= '';
+#        cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('GMGRD') gives a non-empty string" );
+#    }
 
     SKIP: {
         skip "api.cpanauthors.org is not available", 1

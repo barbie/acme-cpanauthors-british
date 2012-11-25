@@ -5,7 +5,7 @@ use Test::More;
 
 plan skip_all => "can't load Acme::CPANAuthors"
     unless eval "use Acme::CPANAuthors; 1";
-plan tests => 12;
+plan tests => 10;
 
 my $authors  = eval { Acme::CPANAuthors->new("British") };
 is( $@, "", "creating a new Acme::CPANAuthors object with British authors" );
@@ -38,21 +38,21 @@ SKIP: {
     $name = $authors->name('BARBIE');
     is($name, "Barbie", " .. \$authors->name('BARBIE') returns Barbie" );
 
-    SKIP: {
-        skip "en.gravatar.com is not available", 2
-            if(pingtest('en.gravatar.com'));
-
-        my $url;
-        eval { $url = $authors->avatar_url('BARBIE') };
-        skip "en.gravatar.com is not available", 1 if($@);
-        $url ||= '';
-        is($url, 'http://www.gravatar.com/avatar/2459f554c069e44527716e3f35e1d0d1', ".. \$authors->avatar_url('BARBIE') returns a URL" );
-
-        eval { $url = $authors->avatar_url('BINGOS') };
-        skip "en.gravatar.com is not available", 1 if($@);
-        $url ||= '';
-        cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('BINGOS') gives a non-empty string" );
-    }
+#    SKIP: {
+#        skip "en.gravatar.com is not available", 2
+#            if(pingtest('en.gravatar.com'));
+#
+#        my $url;
+#        eval { $url = $authors->avatar_url('BARBIE') };
+#        skip "en.gravatar.com is not available", 1 if($@);
+#        $url ||= '';
+#        is($url, 'http://www.gravatar.com/avatar/2459f554c069e44527716e3f35e1d0d1', ".. \$authors->avatar_url('BARBIE') returns a URL" );
+#
+#        eval { $url = $authors->avatar_url('BINGOS') };
+#        skip "en.gravatar.com is not available", 1 if($@);
+#        $url ||= '';
+#        cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('BINGOS') gives a non-empty string" );
+#    }
 
     SKIP: {
         skip "api.cpanauthors.org is not available", 1
