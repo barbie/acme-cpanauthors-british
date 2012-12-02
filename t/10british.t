@@ -21,11 +21,11 @@ is( ~~@ids, $number, " .. \$authors->id equals \$authors->count" );
 SKIP: {
     my $file;
     eval { $file = Acme::CPANAuthors::Utils::_cpan_authors_file() };
-    skip "CPAN configuration not available", 6 if($@ || !$file);
+    skip "CPAN configuration not available", 5 if($@ || !$file);
 
     $file = undef;
     eval { $file = Acme::CPANAuthors::Utils::_cpan_packages_file() };
-    skip "CPAN configuration not available", 6 if($@ || !$file);
+    skip "CPAN configuration not available", 5 if($@ || !$file);
 
     my @distros  = $authors->distributions('BARBIE');
     cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions('BARBIE') gives a non-empty list" );
@@ -80,4 +80,3 @@ sub pingtest {
     my $retcode = $? >> 8;  # ping returns 1 if unable to connect
     return $retcode;
 }
-
