@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.18";
+    $VERSION = "0.19";
 }
 
 use Acme::CPANAuthors::Register (
@@ -167,6 +167,7 @@ use Acme::CPANAuthors::Register (
     MIKEJ       => 'Mike Jones',
     MIRK        => 'Mike Taylor',
     MJBRIGHT    => 'Martin Bright',
+    MJEMMESON   => 'Michael Jemmeson',
     MJEWELL     => 'Mike Jewell',
     MJG         => 'Michael Gray',
     MJM         => 'Matt Mitchell',
@@ -428,9 +429,9 @@ I always wanted to release an Acme module :)
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2009-2012 Barbie for Miss Barbell Productions.
+  Copyright 2009-2013 Barbie for Miss Barbell Productions.
 
-  This module is free software; you can redistribute it and/or
+  This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
 
 =cut
