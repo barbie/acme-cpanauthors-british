@@ -57,6 +57,7 @@ use Acme::CPANAuthors::Register (
     BOBTFISH    => 'Tomas Doran',
     BOB         => 'Bob Walker',
     BOBW        => 'Bob Wilkinson',
+    BRIANG      => 'brian greenfield',
     BURKEY      => 'Daniel Burke',
     CAILLTE     => 'Simon Parsons',
     CCOLBOURN   => 'Charles Colbourn',
@@ -101,7 +102,6 @@ use Acme::CPANAuthors::Register (
     GDR         => 'Gareth D. Rees',
     GHENRY      => 'Gavin Henry',
     GLENSMALL   => 'Glen Small',
-    GMCCAR      => 'Greg McCarroll',
     GRIXON      => 'Guy Rixon',
     HDM         => 'Dominic Mitchell',
     HEX         => 'Earle Martin',
@@ -280,6 +280,7 @@ use Acme::CPANAuthors::Register (
     TOMI        => 'Tom Insam',
     TWIBBLER    => 'Trevor Ward',
     WAYNEM      => 'Wayne Myers',
+    WDH         => 'Will Hawes',
     WHITEB      => 'Barry White',
     WKEENAN     => 'Wayne Keenan',
     XEONTIME    => "Daniel David Parry",
@@ -288,8 +289,9 @@ use Acme::CPANAuthors::Register (
     ZOZO        => 'Theo Zourzouvillys',
     ZZCGUMK     => 'Mark Mc Keown',
 
-    # Gone, but not forgotten
+    # Our fallen heroes, may they never be forgotten
 
+    GMCCAR      => 'Greg McCarroll',
     IVORW       => 'Ivor Williams (RIP)',
     'NI-S'      => 'Nick Ing-Simmons (RIP)',
 );
