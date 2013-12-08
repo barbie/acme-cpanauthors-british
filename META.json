@@ -1,6 +1,6 @@
 {
     "name": "Acme-CPANAuthors-British",
-    "version": "0.19",
+    "version": "0.20",
     "abstract": "We are British CPAN authors.",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -44,11 +44,11 @@
     "provides": {
         "Acme::CPANAuthors::British": {
             "file": "lib/Acme/CPANAuthors/British.pm",
-            "version": "0.19"
+            "version": "0.20"
         },
         "Acme::CPANAuthors::British::Companies": {
             "file": "lib/Acme/CPANAuthors/British/Companies.pm",
-            "version": "0.19"
+            "version": "0.20"
         }
     },
     "no_index": {
