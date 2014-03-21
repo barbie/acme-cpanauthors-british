@@ -4,11 +4,12 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.20";
+    $VERSION = "1.00";
 }
 
 use Acme::CPANAuthors::Register (
     AALLAN      => 'Alasdair Allan',
+    ABABLABAB   => 'Ross Hayes',
     ABURLISON   => 'Alan Burlison',
     ABW         => 'Andy Wardley',
     ACMCMEN     => 'Adrian McMenamin',
@@ -78,6 +79,7 @@ use Acme::CPANAuthors::Register (
     DAVEHODG    => 'Dave Hodgkinson',
     DAVIDHJ     => 'David Hugh-Jones',
     DCANTRELL   => 'David Cantrell',
+    DCHESTER    => 'David Chester',
     DENNEY      => 'Chris Denney',
     DETOX       => 'Jonathan Waller',
     DGL         => 'David Leadbeater',
@@ -92,6 +94,7 @@ use Acme::CPANAuthors::Register (
     DUFFEE      => 'Boyd Duffee',
     DVSM        => 'Stuart Butler',
     DWILSON     => 'Dean Wilson',
+    EDWARDSON   => 'Tony Edwardson',
     EFIFER      => 'Eric Fifer',
     EGYPTUS     => 'Nick Humphries',
     ELLIOTT     => 'Simon Elliott',
@@ -100,6 +103,8 @@ use Acme::CPANAuthors::Register (
     EVDB        => 'Edmund von der Burg',
     EXOBUZZ     => 'Jools Wills',
     GDR         => 'Gareth D. Rees',
+    GEOFFR      => 'Geoff Richards',
+    GHARPER     => 'Gareth Harper',
     GHENRY      => 'Gavin Henry',
     GLENSMALL   => 'Glen Small',
     GRIXON      => 'Guy Rixon',
@@ -107,6 +112,7 @@ use Acme::CPANAuthors::Register (
     HEX         => 'Earle Martin',
     HITHERTO    => 'Simon Batistoni',
     HOGGARTH    => 'Neil Hoggarth',
+    HOUSTON     => 'Pete Houston',
     HVDS        => 'Hugo van der Sanden',
     IAINT       => 'Iain Tatch',
     ICLARK      => 'Ian Clark',
@@ -223,7 +229,6 @@ use Acme::CPANAuthors::Register (
     RATAXIS     => 'Joel Bernstein',
     RCALEY      => 'Richard Caley',
     RCLAMP      => 'Richard Clamp',
-    RECKON      => 'Franck Latremoliere',
     RED         => 'Redvers Davies',
     RGIFFORD    => 'Richard Gifford',
     RICH        => 'Richard Dobson',

@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.20";
+    $VERSION = "1.00";
 }
 
 use Acme::CPANAuthors::Register (
@@ -14,10 +14,12 @@ use Acme::CPANAuthors::Register (
     BBCSIMONF   => 'Simon Flack (BBC)',
     BLACKSTAR   => 'BlackStar',
     CASTLE      => 'Peter Goode/Castle Links Ltd',
+    DOTTK       => 'Dot TK Limited',
     FOTANGO     => 'Fotango Ltd',
     GMGRD       => 'Guardian Media Group Regional Digital',
+    INTERINFO   => 'Interactive Information, Ltd',
     PROFERO     => 'Profero Ltd.',
-    DOTTK       => 'Dot TK Limited',
+    RECKON      => 'Reckon LLP',
 );
 
 q<
