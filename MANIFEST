@@ -6,6 +6,7 @@ README
 Changes
 lib/Acme/CPANAuthors/British.pm
 lib/Acme/CPANAuthors/British/Companies.pm
+LICENSE
 examples/author_info
 examples/company_info
 examples/count
