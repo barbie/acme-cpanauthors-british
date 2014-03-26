@@ -174,6 +174,7 @@ use Acme::CPANAuthors::Register (
     MIRK        => 'Mike Taylor',
     MJBRIGHT    => 'Martin Bright',
     MJEMMESON   => 'Michael Jemmeson',
+    MJEVANS     => 'Martin J. Evans',
     MJEWELL     => 'Mike Jewell',
     MJG         => 'Michael Gray',
     MJM         => 'Matt Mitchell',
