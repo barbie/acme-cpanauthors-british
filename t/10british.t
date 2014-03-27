@@ -11,7 +11,7 @@ my $authors  = eval { Acme::CPANAuthors->new("British") };
 is( $@, "", "creating a new Acme::CPANAuthors object with British authors" );
 isa_ok( $authors, "Acme::CPANAuthors" );
 
-my $number = 288;
+my $number = 289;
 is( $authors->count, $number, " .. \$authors->count matches current count" );
 
 my @ids = $authors->id;
@@ -71,7 +71,7 @@ sub pingtest {
                 $^O =~ /dos|os2|mswin32|netware|cygwin/i    ? "ping -n 1 $domain "
                                                             : "ping -c 1 $domain >/dev/null 2>&1";
 
-    eval { system($cmd) }; 
+    eval { system($cmd) };
     if($@) {                # can't find ping, or wrong arguments?
         diag($@);
         return 1;
