@@ -30,7 +30,6 @@ use Acme::CPANAuthors::Register (
     ALEXMC      => 'Alex McLintock',
     ALPOW       => 'Alan Pownall',
     AMIAS       => 'Amias Channer',
-    ANDREWF     => 'Andrew Ford',
     ANDREWS     => 'Andrew Stringer',
     ANDYA       => 'Andy Armstrong',
     ANDYW       => 'Andy Walker',
@@ -226,6 +225,8 @@ use Acme::CPANAuthors::Register (
     PMISON      => 'Paul Mison',
     PMOORE      => 'Paul Moore',
     PNE         => 'Philip Newton',
+    PRICHMOND   => "Peter Richmond",
+    PWR         => "Peter Roberts",
     PTALACKO    => 'Paul Talacko',
     RATAXIS     => 'Joel Bernstein',
     RCALEY      => 'Richard Caley',
@@ -297,9 +298,10 @@ use Acme::CPANAuthors::Register (
 
     # Our fallen heroes, may they never be forgotten
 
+    ANDREWF     => 'Andrew Ford',
     GMCCAR      => 'Greg McCarroll',
-    IVORW       => 'Ivor Williams (RIP)',
-    'NI-S'      => 'Nick Ing-Simmons (RIP)',
+    IVORW       => 'Ivor Williams',
+    'NI-S'      => 'Nick Ing-Simmons',
 );
 
 q<
