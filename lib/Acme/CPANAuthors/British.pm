@@ -121,7 +121,6 @@ use Acme::CPANAuthors::Register (
     ITDEV       => 'Bruce Mitchell',
     JABLKO      => 'Jack Bates',
     JAGS        => 'Jagdeep S. Sandhu',
-    JAITKEN     => 'James Aitken',
     JAMESPO     => 'James Powell',
     JAMESR      => 'James Ronan',
     JARLE       => 'Jarle Brinchmann',
@@ -301,6 +300,7 @@ use Acme::CPANAuthors::Register (
     ANDREWF     => 'Andrew Ford',
     GMCCAR      => 'Greg McCarroll',
     IVORW       => 'Ivor Williams',
+    JAITKEN     => 'James Aitken',
     'NI-S'      => 'Nick Ing-Simmons',
 );
 
