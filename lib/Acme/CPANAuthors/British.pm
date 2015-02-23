@@ -439,7 +439,7 @@ I always wanted to release an Acme module :)
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2009-2013 Barbie for Miss Barbell Productions.
+  Copyright 2009-2015 Barbie for Miss Barbell Productions.
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
