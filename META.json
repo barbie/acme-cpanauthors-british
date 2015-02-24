@@ -1,6 +1,6 @@
 {
     "name": "Acme-CPANAuthors-British",
-    "version": "1.02",
+    "version": "1.03",
     "abstract": "We are British CPAN authors.",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -13,7 +13,7 @@
         "version": "2",
         "url": "http://search.cpan.org/dist/CPAN-Meta/lib/CPAN/Meta/Spec.pm"
     },
-    "generated_by": "Hand 1.0",
+    "generated_by": "The Hand of Barbie 1.0",
     "keywords" : [
         "acme",
         "cpan",
@@ -44,11 +44,11 @@
     "provides": {
         "Acme::CPANAuthors::British": {
             "file": "lib/Acme/CPANAuthors/British.pm",
-            "version": "1.02"
+            "version": "1.03"
         },
         "Acme::CPANAuthors::British::Companies": {
             "file": "lib/Acme/CPANAuthors/British/Companies.pm",
-            "version": "1.02"
+            "version": "1.03"
         }
     },
     "no_index": {
