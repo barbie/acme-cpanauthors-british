@@ -372,8 +372,6 @@ L<Acme::CPANAuthors::French> - French CPAN authors
 
 L<Acme::CPANAuthors::Portuguese> - Portuguese CPAN authors
 
-L<Acme::CPANAuthors::Italian> - Italian CPAN authors
-
 Or you could use the following to include them all:
 
 L<Acme::CPANAuthors::European> - European CPAN authors
