@@ -158,6 +158,7 @@ use Acme::CPANAuthors::Register (
     LMJM        => 'Lee McLoughlin',
     LORDO       => 'Lawrence Tierney',
     MACDEE      => 'Craig Macdonald',
+    MANWAR      => 'Mohammad S Anwar',
     MARKBUSH    => 'Mark J Bush',
     MARKD       => 'Mark Daglish',
     MARKF       => 'Mark Fowler',
